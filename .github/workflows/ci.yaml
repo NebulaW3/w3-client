@@ -29,4 +29,4 @@ jobs:
 
     - name: Run tests with coverage
       run: |
-        poetry run pytest w3_client --cov=./
+        poetry run pytest --cov=w3_client
